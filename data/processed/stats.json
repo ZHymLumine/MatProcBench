@@ -1,0 +1,12 @@
+{
+  "total": 34975,
+  "task_counts": {
+    "A1_route_retrieval": 1938,
+    "A2_missing_step": 6231,
+    "A3_next_activity": 7299,
+    "B1_condition_prediction": 12339,
+    "B2_full_condition_set": 1087,
+    "C1_tool_selection": 4390,
+    "D1_process_ordering": 1691
+  }
+}

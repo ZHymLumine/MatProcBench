@@ -1,0 +1,100 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+
+# ── System ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+# SFTP config may contain server credentials
+.vscode/
+.idea/
+
+
+# ── Python virtual environments ───────────────────────────────────────────────
+.env
+.venv/
+venv/
+env/
+
+
+# ── Large data: academic papers ───────────────────────────────────────────────
+# 530+ PDFs downloaded from publisher DOIs (~hundreds of MB)
+data/papers/
+
+# ── Large data: generated benchmark splits ────────────────────────────────────
+# Regenerate from data/raw_data/MatPROV.jsonl via data_utils/build_process_tasks.py
+
+# ── Large data: external starrydata snapshot ──────────────────────────────────
+# Large CSV files (papers / samples / curves); download separately
+data/starrydata_dataset_20260406/
+
+
+# ── Embedding & retrieval caches ──────────────────────────────────────────────
+# SentenceTransformer / GAT graph embedding caches (regenerated automatically)
+*.npy
+*.pkl
+**/.cache/
+**/.mpl_cache/
+
+
+# ── Model checkpoints ─────────────────────────────────────────────────────────
+*.bin
+*.safetensors
+*.pt
+*.pth
+MatProcAgent/baselines/ckpt_step/
+
+
+# ── Experiment results ────────────────────────────────────────────────────────
+# Raw per-question prediction JSONL files and per-config eval JSON files.
+# Summary tables (table*.csv) ARE tracked — see top comment.
+MatProcAgent/ProvMind/results/
+MatProcAgent/ProvMind/results_traceflow/
+
+# Baseline inference outputs and RAG embedding caches
+# (table1–5_*.csv result summaries are kept; raw prediction JSONL are not)
+MatProcAgent/baselines/results/
+# Allow the small CSV summary tables back in
+!MatProcAgent/baselines/results/table*.csv
+
+
+# ── Intermediate / backup figure directories ──────────────────────────────────
+# Keep MatProcAgent/ProvMind/figures/ (final paper figures)
+MatProcAgent/ProvMind/figures_backup/
+MatProcAgent/ProvMind/figures_codex/
+
+
+# ── Provenance visualization output ───────────────────────────────────────────
+# Generated HTML files from prov_jsonld_viz.py (2369 subdirs, 45 MB)
+prov_viz_output/
+
+
+
+# ── Related-work PDFs ─────────────────────────────────────────────────────────
+# ~20 reference papers, 46 MB; reference via README links instead
+related_work/
+MatPath_NCS/
+*.pdf
+ProvMind_paper/
+
+# ── Binary / presentation files ───────────────────────────────────────────────
+*.pptx
+*.zip
+
+# Paper PDFs and compressed archives inside MatPath_NCS (keep .tex source)
+MatPath_NCS/*.pdf
+MatPath_NCS/*.zip
+MatPath_NCS/Figures/

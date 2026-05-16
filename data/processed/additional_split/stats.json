@@ -1,0 +1,50 @@
+{
+  "train": {
+    "n": 23654,
+    "tasks": {
+      "A1_route_retrieval": 1321,
+      "A2_missing_step": 4236,
+      "A3_next_activity": 4907,
+      "B1_condition_prediction": 8306,
+      "B2_full_condition_set": 696,
+      "C1_tool_selection": 3039,
+      "D1_process_ordering": 1149
+    }
+  },
+  "dev": {
+    "n": 2970,
+    "tasks": {
+      "A1_route_retrieval": 167,
+      "A2_missing_step": 537,
+      "A3_next_activity": 565,
+      "B1_condition_prediction": 1075,
+      "B2_full_condition_set": 81,
+      "C1_tool_selection": 405,
+      "D1_process_ordering": 140
+    }
+  },
+  "test": {
+    "n": 2479,
+    "tasks": {
+      "A1_route_retrieval": 148,
+      "A2_missing_step": 412,
+      "A3_next_activity": 583,
+      "B1_condition_prediction": 875,
+      "B2_full_condition_set": 103,
+      "C1_tool_selection": 227,
+      "D1_process_ordering": 131
+    }
+  },
+  "excluded": {
+    "n": 5872,
+    "tasks": {
+      "A1_route_retrieval": 302,
+      "A2_missing_step": 1046,
+      "A3_next_activity": 1244,
+      "B1_condition_prediction": 2083,
+      "B2_full_condition_set": 207,
+      "C1_tool_selection": 719,
+      "D1_process_ordering": 271
+    }
+  }
+}

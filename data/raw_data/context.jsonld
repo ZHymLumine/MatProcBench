@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "matprov": "https://matprov-project.github.io/matprov-schema/releases/1.0/context.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "temperature": {
+      "@id": "matprov:temperature",
+      "@type": "xsd:string"
+    },
+    "temperature_start": {
+      "@id": "matprov:temperature_start",
+      "@type": "xsd:string"
+    },
+    "temperature_end": {
+      "@id": "matprov:temperature_end",
+      "@type": "xsd:string"
+    },
+    "temperature_rate": {
+      "@id": "matprov:temperature_rate",
+      "@type": "xsd:string"
+    },
+    "duration": {
+      "@id": "matprov:duration",
+      "@type": "xsd:string"
+    },
+    "pressure": {
+      "@id": "matprov:pressure",
+      "@type": "xsd:string"
+    },
+    "pressure_start": {
+      "@id": "matprov:pressure_start",
+      "@type": "xsd:string"
+    },
+    "pressure_end": {
+      "@id": "matprov:pressure_end",
+      "@type": "xsd:string"
+    },
+    "pressure_rate": {
+      "@id": "matprov:pressure_rate",
+      "@type": "xsd:string"
+    },
+    "mass": {
+      "@id": "matprov:mass",
+      "@type": "xsd:string"
+    },
+    "mass_start": {
+      "@id": "matprov:mass_start",
+      "@type": "xsd:string"
+    },
+    "mass_end": {
+      "@id": "matprov:mass_end",
+      "@type": "xsd:string"
+    },
+    "mass_rate": {
+      "@id": "matprov:mass_rate",
+      "@type": "xsd:string"
+    },
+    "length": {
+      "@id": "matprov:length",
+      "@type": "xsd:string"
+    },
+    "length_start": {
+      "@id": "matprov:length_start",
+      "@type": "xsd:string"
+    },
+    "length_end": {
+      "@id": "matprov:length_end",
+      "@type": "xsd:string"
+    },
+    "length_rate": {
+      "@id": "matprov:length_rate",
+      "@type": "xsd:string"
+    },
+    "length_width": {
+      "@id": "matprov:length_width",
+      "@type": "xsd:string"
+    },
+    "length_height": {
+      "@id": "matprov:length_height",
+      "@type": "xsd:string"
+    },
+    "length_thickness": {
+      "@id": "matprov:length_thickness",
+      "@type": "xsd:string"
+    },
+    "length_diameter": {
+      "@id": "matprov:length_diameter",
+      "@type": "xsd:string"
+    },
+    "purity": {
+      "@id": "matprov:purity",
+      "@type": "xsd:string"
+    },
+    "purity_start": {
+      "@id": "matprov:purity_start",
+      "@type": "xsd:string"
+    },
+    "purity_end": {
+      "@id": "matprov:purity_end",
+      "@type": "xsd:string"
+    },
+    "purity_rate": {
+      "@id": "matprov:purity_rate",
+      "@type": "xsd:string"
+    },
+    "concentration": {
+      "@id": "matprov:concentration",
+      "@type": "xsd:string"
+    },
+    "concentration_start": {
+      "@id": "matprov:concentration_start",
+      "@type": "xsd:string"
+    },
+    "concentration_end": {
+      "@id": "matprov:concentration_end",
+      "@type": "xsd:string"
+    },
+    "concentration_rate": {
+      "@id": "matprov:concentration_rate",
+      "@type": "xsd:string"
+    },
+    "rotation": {
+      "@id": "matprov:rotation",
+      "@type": "xsd:string"
+    },
+    "rotation_start": {
+      "@id": "matprov:rotation_start",
+      "@type": "xsd:string"
+    },
+    "rotation_end": {
+      "@id": "matprov:rotation_end",
+      "@type": "xsd:string"
+    },
+    "rotation_rate": {
+      "@id": "matprov:rotation_rate",
+      "@type": "xsd:string"
+    },
+    "atmosphere": {
+      "@id": "matprov:atmosphere",
+      "@type": "xsd:string"
+    },
+    "atmosphere_start": {
+      "@id": "matprov:atmosphere_start",
+      "@type": "xsd:string"
+    },
+    "atmosphere_end": {
+      "@id": "matprov:atmosphere_end",
+      "@type": "xsd:string"
+    },
+    "atmosphere_rate": {
+      "@id": "matprov:atmosphere_rate",
+      "@type": "xsd:string"
+    },
+    "form": {
+      "@id": "matprov:form",
+      "@type": "xsd:string"
+    },
+    "form_start": {
+      "@id": "matprov:form_start",
+      "@type": "xsd:string"
+    },
+    "form_end": {
+      "@id": "matprov:form_end",
+      "@type": "xsd:string"
+    },
+    "form_rate": {
+      "@id": "matprov:form_rate",
+      "@type": "xsd:string"
+    }
+  }
+}

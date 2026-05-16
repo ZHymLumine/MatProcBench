@@ -1,0 +1,38 @@
+{
+  "train": {
+    "n": 27980,
+    "tasks": {
+      "A1_route_retrieval": 1544,
+      "A2_missing_step": 4963,
+      "A3_next_activity": 5867,
+      "B1_condition_prediction": 9909,
+      "B2_full_condition_set": 853,
+      "C1_tool_selection": 3487,
+      "D1_process_ordering": 1357
+    }
+  },
+  "dev": {
+    "n": 3497,
+    "tasks": {
+      "A1_route_retrieval": 208,
+      "A2_missing_step": 646,
+      "A3_next_activity": 699,
+      "B1_condition_prediction": 1199,
+      "B2_full_condition_set": 112,
+      "C1_tool_selection": 462,
+      "D1_process_ordering": 171
+    }
+  },
+  "test": {
+    "n": 3498,
+    "tasks": {
+      "A1_route_retrieval": 186,
+      "A2_missing_step": 622,
+      "A3_next_activity": 733,
+      "B1_condition_prediction": 1231,
+      "B2_full_condition_set": 122,
+      "C1_tool_selection": 441,
+      "D1_process_ordering": 163
+    }
+  }
+}
